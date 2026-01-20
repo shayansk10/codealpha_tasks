@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About me</a></li>
+            </ul>
+
+            <div class="hamburger" id="hamburger">
+                ☰
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="intro">
+        <div class="profile-pic" data-aos="fade-up">
+            <img src="assets/My profile.png" alt="Profile Picture">
+        </div>
+        <h1 data-aos="fade-up">Turning ideas into <span>digital reality!</span></h1>
+        <p data-aos="fade-up" data-aos-delay="200">A passionate developer, constantly learning and building modern web
+            experiences.</p>
+        <div class="buttons" data-aos="fade-up" data-aos-delay="400">
+            <a href="#contact">
+                <button class="glow-btn">Get in Touch</button>
+            </a>
+            <a href="assets/My_Resume.pdf" download>
+                <button class="glow-btn">Download CV</button>
+            </a>
+
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 data-aos="fade-up">My Skills</h2>
+
+        <div class="skill" data-aos="fade-right">
+            <span class="skill-name">HTML</span>
+            <div class="skill-bar">
+                <div class="skill-progress" id="html-skill">95%</div>
+            </div>
+        </div>
+
+        <div class="skill" data-aos="fade-right">
+            <span class="skill-name">CSS</span>
+            <div class="skill-bar">
+                <div class="skill-progress" id="css-skill">90%</div>
+            </div>
+        </div>
+
+        <div class="skill" data-aos="fade-right">
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-bar">
+                <div class="skill-progress" id="js-skill">80%</div>
+            </div>
+        </div>
+
+        <div class="skill" data-aos="fade-right">
+            <span class="skill-name">Python</span>
+            <div class="skill-bar">
+                <div class="skill-progress" id="python-skill">85%</div>
+            </div>
+        </div>
+
+        <div class="skill" data-aos="fade-right">
+            <span class="skill-name">MySQL</span>
+            <div class="skill-bar">
+                <div class="skill-progress" id="mysql-skill">75%</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="timeline">
+
+            <div class="timeline-item left" data-aos="fade-right">
+                <div class="content">
+                    <h3>Freelance & Practice Projects</h3>
+                    <p>- Designed and developed responsive websites using HTML, CSS, and JavaScript.</p>
+                    <p>- Created a Todo List Web App to practice frontend development and user interactivity.</p>
+                    <span class="date">2025 - Present</span>
+                </div>
+            </div>
+
+            <div class="timeline-item right" data-aos="fade-left">
+                <div class="content">
+                    <h3>Python Development Projects</h3>
+                    <p>- Built a Jarvis AI Assistant in Python to automate daily tasks.</p>
+                    <p>- Developed a Weather Application using API integration to fetch real-time data.</p>
+                    <p>- Created a Restaurant Management System with Python + MySQL for order and database handling.</p>
+                    <span class="date">2024 - 2025</span>
+                </div>
+            </div>
+
+            <div class="timeline-item left" data-aos="fade-right">
+                <div class="content">
+                    <h3>Learning & Skill Growth</h3>
+                    <p>- Practiced full-stack concepts with Python, MySQL, and web technologies.</p>
+                    <p>- Completed multiple personal projects to strengthen problem-solving and coding logic.</p>
+                    <span class="date">2024 - 2025</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/projects/Jarvis.png" alt="Jarvir AI Virtual Assistant">
+            <div class="overlay">
+                <h3>Power of AI</h3>
+                <p>Jarvir AI Virtual Assistant</p>
+                <a href="https://github.com/shayansk10/Jarvis_AI_Virtual_Assistant-" class="view-btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/projects/AI weather report.png" alt="AI Weather Reporter">
+            <div class="overlay">
+                <h3>AI Weather Reporter</h3>
+                <p>AI Weather Reporter design to know about weather of any city</p>
+                <a href="https://github.com/shayansk10/AI_Weather_Reporter" class="view-btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/projects/Todo list.png" alt="TODO list">
+            <div class="overlay">
+                <h3>To-Do list</h3>
+                <p>A simple To-Do List web app that allows users to add, manage, and track daily tasks efficiently</p>
+                <a href="https://github.com/shayansk10/TaskMaster_Dynamic_Todo_List_Manager" class="view-btn">View
+                    Project</a>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/projects/Restuarant management.png" alt="Restuarant Management System">
+            <div class="overlay">
+                <h3>Restuarant Management</h3>
+                <p>A database-powered system to manage restaurant menus and orders.</p>
+                <a href="https://github.com/shayansk10/Restaurant_Management" class="view-btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>Passionate Developer & Problem Solver</h3>
+                    <p>Hello! I'm Shayan, a dedicated developer with a passion for creating innovative digital
+                        solutions. I specialize in front-end development with HTML, CSS, and JavaScript, along with
+                        back-end skills in Python and MySQL.</p>
+
+                    <p>My journey in programming started with curiosity and has evolved into a deep love for turning
+                        complex problems into simple, beautiful solutions. I believe in writing clean, efficient code
+                        and constantly learning new technologies.</p>
+
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <span class="highlight-icon">🚀</span>
+                            <span class="highlight-text">Fast Learner & Adaptable</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-icon">💡</span>
+                            <span class="highlight-text">Creative Problem Solver</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-icon">🔍</span>
+                            <span class="highlight-text">Attention to Detail</span>
+                        </div>
+                    </div>
+
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source
+                        projects, or learning about the latest trends in web development.</p>
+                </div>
+
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-container">
+                        <img src="assets/My profile.png" alt="Shayan Khan">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Get in Touch</h2>
+        <p>Have an idea in mind? Let’s bring it to life together — drop me a message!</p>
+
+        <div class="contact-container">
+            <form class="contact-form" action="https://formsubmit.co/shayankhansk1010@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New Portfolio Message">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://shayanskportfolio.netlify.app/thankyou.html">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" rows="5" name="message" placeholder="Type your message here"
+                        required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p>Follow me on social media or drop me an email!</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/shayan-khan-b206a8380/" class="social-link">
+                        <img src="assets/linkedin.png" alt="LinkedIn">
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/shayansk10" class="social-link">
+                        <img src="assets/github.png" alt="GitHub">
+                        <span>GitHub</span>
+                    </a>
+                </div>
+                <p>Email: <a href="mailto:shayankhansk1010@gmail.com">shayankhansk1010@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+    <footer>
+        <div class="footer-bottom">
+            &copy; 2025 Shayan Khan | ALL Rights Reserved
+        </div>
+    </footer>
+
+</body>
+
+<script>
+
+    function animateSkills() {
+        document.getElementById('html-skill').classList.add('animate-html');
+        document.getElementById('css-skill').classList.add('animate-css');
+        document.getElementById('js-skill').classList.add('animate-js');
+        document.getElementById('python-skill').classList.add('animate-python');
+        document.getElementById('mysql-skill').classList.add('animate-mysql');
+    }
+
+
+    window.addEventListener('scroll', function () {
+        const skillsSection = document.getElementById('skills');
+        const sectionPosition = skillsSection.getBoundingClientRect().top;
+        const screenPosition = window.innerHeight / 1.3;
+
+        if (sectionPosition < screenPosition) {
+            animateSkills();
+        }
+    });
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const skillsSection = document.getElementById('skills');
+        const sectionPosition = skillsSection.getBoundingClientRect().top;
+        const screenPosition = window.innerHeight / 1.3;
+
+        if (sectionPosition < screenPosition) {
+            animateSkills();
+        }
+    });
+</script>
+
+
+<script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("navLinks");
+
+    hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+</script>
+
+</html>
